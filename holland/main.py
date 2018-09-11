@@ -247,11 +247,12 @@ vip = True
 aaa = False
 
 while True:
-	if vip_inv:
-		vip_inv = False
-	else:
-		vip_inv = True
+	#if vip_inv:
+	#	vip_inv = False
+	#else:
+	#	vip_inv = True
 	if vip:
+		vip_inv = not vip_inv
 		show_vip(vip_inv)
 	if strobe:
 		if aaa:
